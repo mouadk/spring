@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-24T20:28:28.783Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="aVEX0LZCEsYGtP4QNhYu" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-24T20:34:06.012Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="rD7XLagQobfW1WutFwNz" version="14.4.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1018" dy="1190" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="351" dy="410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -167,7 +167,7 @@
         <mxCell id="Snxs2UidoDejocpdf8-x-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="555" y="680" as="sourcePoint" />
-            <mxPoint x="474" y="679.5" as="targetPoint" />
+            <mxPoint x="410" y="680" as="targetPoint" />
             <Array as="points">
               <mxPoint x="554.5" y="679.5" />
               <mxPoint x="554.5" y="679.5" />
@@ -327,6 +327,9 @@
         </mxCell>
         <mxCell id="MoNaNplw1TsNARD-EK_f-58" value="if does not implements QueueSubscription&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=50;" vertex="1" parent="1">
           <mxGeometry x="474.5" y="490" width="109.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MoNaNplw1TsNARD-EK_f-60" value="onNext" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="660" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
