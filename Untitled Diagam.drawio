@@ -1,28 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2021-03-22T21:50:18.339Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="rAYCxRUryGoZbARJwQny" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-24T19:55:23.772Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="M0_1pygw74xR_TsAFGvZ" version="14.4.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="848" dy="992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="599" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Snxs2UidoDejocpdf8-x-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="Snxs2UidoDejocpdf8-x-14">
+        <mxCell id="Snxs2UidoDejocpdf8-x-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="Snxs2UidoDejocpdf8-x-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="onNext" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="180" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-14" value="FlatMapMain" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-14" value="FlatMapMain" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="300" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Snxs2UidoDejocpdf8-x-17" target="Snxs2UidoDejocpdf8-x-18">
+        <mxCell id="Snxs2UidoDejocpdf8-x-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Snxs2UidoDejocpdf8-x-17" target="Snxs2UidoDejocpdf8-x-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-17" value="new FlatMapInner" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-17" value="new FlatMapInner" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="300" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-18" value="subscribe to Inner&#xa;Publisher" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-18" value="subscribe to Inner&#xa;Publisher" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="420" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="230" y="319.5" as="sourcePoint" />
             <mxPoint x="310" y="320" as="targetPoint" />
@@ -32,22 +32,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Snxs2UidoDejocpdf8-x-22" target="Snxs2UidoDejocpdf8-x-24">
+        <mxCell id="Snxs2UidoDejocpdf8-x-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Snxs2UidoDejocpdf8-x-22" target="Snxs2UidoDejocpdf8-x-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-22" value="request(prefetch)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-22" value="request(prefetch)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="540" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-24" value="onNext" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-24" value="onNext" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="660" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Snxs2UidoDejocpdf8-x-35" target="Snxs2UidoDejocpdf8-x-39">
+        <mxCell id="Snxs2UidoDejocpdf8-x-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Snxs2UidoDejocpdf8-x-35" target="Snxs2UidoDejocpdf8-x-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-35" value="drain" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-35" value="drain" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="660" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="311" y="680" as="sourcePoint" />
             <mxPoint x="230" y="679.5" as="targetPoint" />
@@ -57,114 +57,114 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Snxs2UidoDejocpdf8-x-39" target="Snxs2UidoDejocpdf8-x-48">
+        <mxCell id="Snxs2UidoDejocpdf8-x-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Snxs2UidoDejocpdf8-x-39" target="Snxs2UidoDejocpdf8-x-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-39" value="drainLoop" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-39" value="drainLoop" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="780" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-42" value="wip == 0 ?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-42" value="wip == 0 ?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="730" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-44" value="start draining&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-44" value="start draining&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="790" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-45" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/business-process-1/512/client-128.png" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-45" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/business-process-1/512/client-128.png" parent="1" vertex="1">
           <mxGeometry x="146" y="950" width="68" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-48" value="onNext" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-48" value="onNext" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="900" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-50" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/pinpoint-interface/48/user-128.png" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-50" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/pinpoint-interface/48/user-128.png" parent="1" vertex="1">
           <mxGeometry x="52" y="270" width="58" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-51" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-51" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="182" y="650" as="sourcePoint" />
             <mxPoint x="182" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-52" value="&lt;pre style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;p not &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;instanceof &lt;/span&gt;Callable&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-52" value="&lt;pre style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;p not &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;instanceof &lt;/span&gt;Callable&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="265" y="270" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Snxs2UidoDejocpdf8-x-62">
+        <mxCell id="Snxs2UidoDejocpdf8-x-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="1210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-81" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(187 , 181 , 41)&quot;&gt;@Override&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;public void &lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 198 , 109)&quot;&gt;run&lt;/span&gt;() {&lt;br&gt; &lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;THREAD&lt;/span&gt;.lazySet(&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;this, &lt;/span&gt;Thread.&lt;span style=&quot;font-style: italic&quot;&gt;currentThread&lt;/span&gt;())&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;source&lt;/span&gt;.subscribe(&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;this&lt;/span&gt;)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-81" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(187 , 181 , 41)&quot;&gt;@Override&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;public void &lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 198 , 109)&quot;&gt;run&lt;/span&gt;() {&lt;br&gt; &lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;THREAD&lt;/span&gt;.lazySet(&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;this, &lt;/span&gt;Thread.&lt;span style=&quot;font-style: italic&quot;&gt;currentThread&lt;/span&gt;())&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;source&lt;/span&gt;.subscribe(&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;this&lt;/span&gt;)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="1100" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-82" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(187 , 181 , 41)&quot;&gt;@Override&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;public &lt;/span&gt;CoreSubscriber&amp;lt;? &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;super &lt;/span&gt;&lt;span style=&quot;color: rgb(80 , 120 , 116)&quot;&gt;T&lt;/span&gt;&amp;gt; &lt;span style=&quot;color: rgb(255 , 198 , 109)&quot;&gt;subscribeOrReturn&lt;/span&gt;(CoreSubscriber&amp;lt;? &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;super &lt;/span&gt;&lt;span style=&quot;color: rgb(80 , 120 , 116)&quot;&gt;T&lt;/span&gt;&amp;gt; actual) {&lt;br&gt; Worker worker = Objects.&lt;span style=&quot;font-style: italic&quot;&gt;requireNonNull&lt;/span&gt;(&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;scheduler&lt;/span&gt;.createWorker()&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;   &lt;/span&gt;&lt;span style=&quot;color: rgb(106 , 135 , 89)&quot;&gt;&quot;The scheduler returned a null Function&quot;&lt;/span&gt;)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;SubscribeOnSubscriber&amp;lt;&lt;span style=&quot;color: rgb(80 , 120 , 116)&quot;&gt;T&lt;/span&gt;&amp;gt; parent = &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;new &lt;/span&gt;SubscribeOnSubscriber&amp;lt;&amp;gt;(&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;source&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;   &lt;/span&gt;actual&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;worker&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;requestOnSeparateThread&lt;/span&gt;)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;actual.onSubscribe(parent)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; try &lt;/span&gt;{&lt;br&gt;  worker.schedule(parent)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;}&lt;br&gt; &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;catch &lt;/span&gt;(RejectedExecutionException ree) {&lt;br&gt;  &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;if &lt;/span&gt;(parent.&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;s &lt;/span&gt;!= Operators.&lt;span style=&quot;font-style: italic&quot;&gt;cancelledSubscription&lt;/span&gt;()) {&lt;br&gt;   actual.onError(Operators.&lt;span style=&quot;font-style: italic&quot;&gt;onRejectedExecution&lt;/span&gt;(ree&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;parent&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, null, null,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;     &lt;/span&gt;actual.currentContext()))&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  &lt;/span&gt;}&lt;br&gt; }&lt;br&gt; &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;return null;&lt;br&gt;&lt;/span&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-82" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(187 , 181 , 41)&quot;&gt;@Override&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;public &lt;/span&gt;CoreSubscriber&amp;lt;? &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;super &lt;/span&gt;&lt;span style=&quot;color: rgb(80 , 120 , 116)&quot;&gt;T&lt;/span&gt;&amp;gt; &lt;span style=&quot;color: rgb(255 , 198 , 109)&quot;&gt;subscribeOrReturn&lt;/span&gt;(CoreSubscriber&amp;lt;? &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;super &lt;/span&gt;&lt;span style=&quot;color: rgb(80 , 120 , 116)&quot;&gt;T&lt;/span&gt;&amp;gt; actual) {&lt;br&gt; Worker worker = Objects.&lt;span style=&quot;font-style: italic&quot;&gt;requireNonNull&lt;/span&gt;(&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;scheduler&lt;/span&gt;.createWorker()&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;   &lt;/span&gt;&lt;span style=&quot;color: rgb(106 , 135 , 89)&quot;&gt;&quot;The scheduler returned a null Function&quot;&lt;/span&gt;)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;SubscribeOnSubscriber&amp;lt;&lt;span style=&quot;color: rgb(80 , 120 , 116)&quot;&gt;T&lt;/span&gt;&amp;gt; parent = &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;new &lt;/span&gt;SubscribeOnSubscriber&amp;lt;&amp;gt;(&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;source&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;   &lt;/span&gt;actual&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;worker&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;requestOnSeparateThread&lt;/span&gt;)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;actual.onSubscribe(parent)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; try &lt;/span&gt;{&lt;br&gt;  worker.schedule(parent)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;}&lt;br&gt; &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;catch &lt;/span&gt;(RejectedExecutionException ree) {&lt;br&gt;  &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;if &lt;/span&gt;(parent.&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;s &lt;/span&gt;!= Operators.&lt;span style=&quot;font-style: italic&quot;&gt;cancelledSubscription&lt;/span&gt;()) {&lt;br&gt;   actual.onError(Operators.&lt;span style=&quot;font-style: italic&quot;&gt;onRejectedExecution&lt;/span&gt;(ree&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;parent&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, null, null,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;     &lt;/span&gt;actual.currentContext()))&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  &lt;/span&gt;}&lt;br&gt; }&lt;br&gt; &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;return null;&lt;br&gt;&lt;/span&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="1180" width="440" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-89" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(187 , 181 , 41)&quot;&gt;@Override&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;public void &lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 198 , 109)&quot;&gt;onNext&lt;/span&gt;(&lt;span style=&quot;color: rgb(80 , 120 , 116)&quot;&gt;T &lt;/span&gt;t) {&lt;br&gt; &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;if &lt;/span&gt;(&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;sourceMode &lt;/span&gt;== &lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;ASYNC&lt;/span&gt;) {&lt;br&gt;  trySchedule(&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;this, null, null &lt;/span&gt;&lt;span style=&quot;color: rgb(128 , 128 , 128)&quot;&gt;/* t always null */&lt;/span&gt;)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  return;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;}&lt;br&gt;&lt;br&gt; &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;if &lt;/span&gt;(&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;done&lt;/span&gt;) {&lt;br&gt;  Operators.&lt;span style=&quot;font-style: italic&quot;&gt;onNextDropped&lt;/span&gt;(t&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;actual&lt;/span&gt;.currentContext())&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  return;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;}&lt;br&gt;&lt;br&gt; &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;if &lt;/span&gt;(&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;cancelled&lt;/span&gt;) {&lt;br&gt;  Operators.&lt;span style=&quot;font-style: italic&quot;&gt;onDiscard&lt;/span&gt;(t&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;actual&lt;/span&gt;.currentContext())&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  return;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;}&lt;br&gt;&lt;br&gt; &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;if &lt;/span&gt;(!&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;queue&lt;/span&gt;.offer(t)) {&lt;br&gt;  Operators.&lt;span style=&quot;font-style: italic&quot;&gt;onDiscard&lt;/span&gt;(t&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;actual&lt;/span&gt;.currentContext())&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;error &lt;/span&gt;= Operators.&lt;span style=&quot;font-style: italic&quot;&gt;onOperatorError&lt;/span&gt;(&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;s&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;    &lt;/span&gt;Exceptions.&lt;span style=&quot;font-style: italic&quot;&gt;failWithOverflow&lt;/span&gt;(Exceptions.&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;BACKPRESSURE_ERROR_QUEUE_FULL&lt;/span&gt;)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;    &lt;/span&gt;t&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;actual&lt;/span&gt;.currentContext())&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;done &lt;/span&gt;= &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;true;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;}&lt;br&gt; trySchedule(&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;this, null, &lt;/span&gt;t)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-89" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(187 , 181 , 41)&quot;&gt;@Override&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;public void &lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 198 , 109)&quot;&gt;onNext&lt;/span&gt;(&lt;span style=&quot;color: rgb(80 , 120 , 116)&quot;&gt;T &lt;/span&gt;t) {&lt;br&gt; &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;if &lt;/span&gt;(&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;sourceMode &lt;/span&gt;== &lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;ASYNC&lt;/span&gt;) {&lt;br&gt;  trySchedule(&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;this, null, null &lt;/span&gt;&lt;span style=&quot;color: rgb(128 , 128 , 128)&quot;&gt;/* t always null */&lt;/span&gt;)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  return;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;}&lt;br&gt;&lt;br&gt; &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;if &lt;/span&gt;(&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;done&lt;/span&gt;) {&lt;br&gt;  Operators.&lt;span style=&quot;font-style: italic&quot;&gt;onNextDropped&lt;/span&gt;(t&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;actual&lt;/span&gt;.currentContext())&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  return;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;}&lt;br&gt;&lt;br&gt; &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;if &lt;/span&gt;(&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;cancelled&lt;/span&gt;) {&lt;br&gt;  Operators.&lt;span style=&quot;font-style: italic&quot;&gt;onDiscard&lt;/span&gt;(t&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;actual&lt;/span&gt;.currentContext())&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  return;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;}&lt;br&gt;&lt;br&gt; &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;if &lt;/span&gt;(!&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;queue&lt;/span&gt;.offer(t)) {&lt;br&gt;  Operators.&lt;span style=&quot;font-style: italic&quot;&gt;onDiscard&lt;/span&gt;(t&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;actual&lt;/span&gt;.currentContext())&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;error &lt;/span&gt;= Operators.&lt;span style=&quot;font-style: italic&quot;&gt;onOperatorError&lt;/span&gt;(&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;s&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;    &lt;/span&gt;Exceptions.&lt;span style=&quot;font-style: italic&quot;&gt;failWithOverflow&lt;/span&gt;(Exceptions.&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;BACKPRESSURE_ERROR_QUEUE_FULL&lt;/span&gt;)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;    &lt;/span&gt;t&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;actual&lt;/span&gt;.currentContext())&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;done &lt;/span&gt;= &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;true;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;}&lt;br&gt; trySchedule(&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;this, null, &lt;/span&gt;t)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="214" y="1500" width="550" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-90" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(187 , 181 , 41)&quot;&gt;@Override&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;public &lt;/span&gt;Disposable &lt;span style=&quot;color: rgb(255 , 198 , 109)&quot;&gt;schedule&lt;/span&gt;(Runnable task&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, long &lt;/span&gt;delay&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;TimeUnit unit) {&lt;br&gt; &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;return &lt;/span&gt;Schedulers.&lt;span style=&quot;font-style: italic&quot;&gt;workerSchedule&lt;/span&gt;(&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;cached&lt;/span&gt;.&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;exec&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;tasks&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;task&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;delay&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;unit)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-90" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(187 , 181 , 41)&quot;&gt;@Override&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;public &lt;/span&gt;Disposable &lt;span style=&quot;color: rgb(255 , 198 , 109)&quot;&gt;schedule&lt;/span&gt;(Runnable task&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, long &lt;/span&gt;delay&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;TimeUnit unit) {&lt;br&gt; &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;return &lt;/span&gt;Schedulers.&lt;span style=&quot;font-style: italic&quot;&gt;workerSchedule&lt;/span&gt;(&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;cached&lt;/span&gt;.&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;exec&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;tasks&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;task&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;delay&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;unit)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="2460" width="270" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-94" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(187 , 181 , 41)&quot;&gt;@Override&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;public &lt;/span&gt;Worker &lt;span style=&quot;color: rgb(255 , 198 , 109)&quot;&gt;createWorker&lt;/span&gt;() {&lt;br&gt; &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;return new &lt;/span&gt;ElasticWorker(pick())&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-94" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(187 , 181 , 41)&quot;&gt;@Override&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;public &lt;/span&gt;Worker &lt;span style=&quot;color: rgb(255 , 198 , 109)&quot;&gt;createWorker&lt;/span&gt;() {&lt;br&gt; &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;return new &lt;/span&gt;ElasticWorker(pick())&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="2340" width="270" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-95" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;static &lt;/span&gt;Disposable &lt;span style=&quot;color: rgb(255 , 198 , 109)&quot;&gt;workerSchedule&lt;/span&gt;(ScheduledExecutorService exec&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  &lt;/span&gt;Disposable.Composite tasks&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  &lt;/span&gt;Runnable task&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  long &lt;/span&gt;delay&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  &lt;/span&gt;TimeUnit unit) {&lt;br&gt; task = &lt;span style=&quot;font-style: italic&quot;&gt;onSchedule&lt;/span&gt;(task)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;WorkerTask sr = &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;new &lt;/span&gt;WorkerTask(task&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;tasks)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; if &lt;/span&gt;(!tasks.add(sr)) {&lt;br&gt;  &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;throw &lt;/span&gt;Exceptions.&lt;span style=&quot;font-style: italic&quot;&gt;failWithRejected&lt;/span&gt;()&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;}&lt;br&gt;&lt;br&gt; &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;try &lt;/span&gt;{&lt;br&gt;  Future&amp;lt;?&amp;gt; f&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  if &lt;/span&gt;(delay &amp;lt;= &lt;span style=&quot;color: rgb(104 , 151 , 187)&quot;&gt;0L&lt;/span&gt;) {&lt;br&gt;   f = exec.submit((Callable&amp;lt;?&amp;gt;) sr)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  &lt;/span&gt;}&lt;br&gt;  &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;else &lt;/span&gt;{&lt;br&gt;   f = exec.schedule((Callable&amp;lt;?&amp;gt;) sr&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;delay&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;unit)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  &lt;/span&gt;}&lt;br&gt;  sr.setFuture(f)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-95" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;static &lt;/span&gt;Disposable &lt;span style=&quot;color: rgb(255 , 198 , 109)&quot;&gt;workerSchedule&lt;/span&gt;(ScheduledExecutorService exec&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  &lt;/span&gt;Disposable.Composite tasks&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  &lt;/span&gt;Runnable task&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  long &lt;/span&gt;delay&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  &lt;/span&gt;TimeUnit unit) {&lt;br&gt; task = &lt;span style=&quot;font-style: italic&quot;&gt;onSchedule&lt;/span&gt;(task)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;WorkerTask sr = &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;new &lt;/span&gt;WorkerTask(task&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;tasks)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; if &lt;/span&gt;(!tasks.add(sr)) {&lt;br&gt;  &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;throw &lt;/span&gt;Exceptions.&lt;span style=&quot;font-style: italic&quot;&gt;failWithRejected&lt;/span&gt;()&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;}&lt;br&gt;&lt;br&gt; &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;try &lt;/span&gt;{&lt;br&gt;  Future&amp;lt;?&amp;gt; f&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  if &lt;/span&gt;(delay &amp;lt;= &lt;span style=&quot;color: rgb(104 , 151 , 187)&quot;&gt;0L&lt;/span&gt;) {&lt;br&gt;   f = exec.submit((Callable&amp;lt;?&amp;gt;) sr)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  &lt;/span&gt;}&lt;br&gt;  &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;else &lt;/span&gt;{&lt;br&gt;   f = exec.schedule((Callable&amp;lt;?&amp;gt;) sr&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;delay&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;unit)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;  &lt;/span&gt;}&lt;br&gt;  sr.setFuture(f)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="2575" width="480" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-97" value="&lt;span style=&quot;color: rgb(41 , 41 , 41) ; font-family: &amp;#34;charter&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;cambria&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; letter-spacing: -0.06300000101327896px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;&amp;nbsp;indication that poll() can be called yey&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=20;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-97" value="&lt;span style=&quot;color: rgb(41 , 41 , 41) ; font-family: &amp;#34;charter&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;cambria&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; letter-spacing: -0.06300000101327896px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;&amp;nbsp;indication that poll() can be called yey&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=20;" parent="1" vertex="1">
           <mxGeometry x="90" y="610" width="370" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Snxs2UidoDejocpdf8-x-101">
+        <mxCell id="Snxs2UidoDejocpdf8-x-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Snxs2UidoDejocpdf8-x-101" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="179" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-101" value="Operator " style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-101" value="Operator " style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="80" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-103" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/pinpoint-interface/48/user-128.png" vertex="1" parent="1">
-          <mxGeometry x="50" y="630" width="58" height="58" as="geometry" />
+        <mxCell id="Snxs2UidoDejocpdf8-x-103" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/pinpoint-interface/48/user-128.png" parent="1" vertex="1">
+          <mxGeometry x="540" y="771" width="58" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-104" value="request (prefetch)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-104" value="requestFusion" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="540" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-138" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="Snxs2UidoDejocpdf8-x-106">
+        <mxCell id="MoNaNplw1TsNARD-EK_f-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Snxs2UidoDejocpdf8-x-106">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="360" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-106" value="subscribe to Inner&#xa;Publisher" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-106" value="subscribe to Inner&#xa;Publisher" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="420" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-108" value="new FlatMapInner" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-108" value="new FlatMapInner" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="300" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Snxs2UidoDejocpdf8-x-111">
+        <mxCell id="Snxs2UidoDejocpdf8-x-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Snxs2UidoDejocpdf8-x-111" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="604" y="417" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-111" value="new FlatMapInner" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-111" value="new FlatMapInner" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="554" y="300" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="474" y="319.5" as="sourcePoint" />
+            <mxPoint x="520" y="320" as="sourcePoint" />
             <mxPoint x="554" y="320" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="484" y="319.5" />
-              <mxPoint x="484" y="319.5" />
+              <mxPoint x="530" y="320" />
+              <mxPoint x="530" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="Snxs2UidoDejocpdf8-x-114">
+        <mxCell id="Snxs2UidoDejocpdf8-x-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="Snxs2UidoDejocpdf8-x-114" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="603.5" y="580" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-114" value="onNext" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-114" value="onNext" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="554" y="660" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="555" y="680" as="sourcePoint" />
             <mxPoint x="474" y="679.5" as="targetPoint" />
@@ -174,82 +174,150 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-116" value="request (prefetch)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-116" value="requestFusion" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="554" y="540" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-142" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="Snxs2UidoDejocpdf8-x-117">
+        <mxCell id="MoNaNplw1TsNARD-EK_f-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Snxs2UidoDejocpdf8-x-117">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="603" y="540" as="targetPoint" />
+            <mxPoint x="604" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-117" value="subscribe to Inner&#xa;Publisher" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-117" value="subscribe to Inner&#xa;Publisher" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="554" y="420" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-131" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-131" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="424" y="319.29" as="sourcePoint" />
-            <mxPoint x="474" y="319.29" as="targetPoint" />
+            <mxPoint x="445" y="279.5" as="sourcePoint" />
+            <mxPoint x="505" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-132" value="n?: 256" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=20;" vertex="1" parent="1">
-          <mxGeometry x="400" y="289" width="105" height="20" as="geometry" />
+        <mxCell id="Snxs2UidoDejocpdf8-x-132" value="n?: 256" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=20;" parent="1" vertex="1">
+          <mxGeometry x="420" y="250" width="105" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Snxs2UidoDejocpdf8-x-132" target="Snxs2UidoDejocpdf8-x-132">
+        <mxCell id="Snxs2UidoDejocpdf8-x-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Snxs2UidoDejocpdf8-x-132" target="Snxs2UidoDejocpdf8-x-132" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-135" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-135" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="424" y="679.29" as="sourcePoint" />
             <mxPoint x="474" y="679.29" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-143" value="Thread1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-143" value="Thread1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 2;" parent="1" vertex="1">
           <mxGeometry x="330" y="720" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-144" value="Threadc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-144" value="Thread n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 2;" parent="1" vertex="1">
           <mxGeometry x="584" y="720" width="76" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-165" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="Snxs2UidoDejocpdf8-x-154" target="Snxs2UidoDejocpdf8-x-159">
+        <mxCell id="Snxs2UidoDejocpdf8-x-165" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;" parent="1" source="Snxs2UidoDejocpdf8-x-154" target="Snxs2UidoDejocpdf8-x-159" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-154" value="subscribeOn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-154" value="subscribeOn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="55" y="1412" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-166" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="Snxs2UidoDejocpdf8-x-155" target="Snxs2UidoDejocpdf8-x-162">
+        <mxCell id="Snxs2UidoDejocpdf8-x-166" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;" parent="1" source="Snxs2UidoDejocpdf8-x-155" target="Snxs2UidoDejocpdf8-x-162" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-155" value="publishOn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-155" value="publishOn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="55" y="1452" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-156" value="" style="whiteSpace=wrap;html=1;aspect=fixed;opacity=20;fillColor=#d5e8d4;strokeWidth=8;strokeColor=#82b366;rounded=0;perimeterSpacing=10;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-156" value="" style="whiteSpace=wrap;html=1;aspect=fixed;opacity=20;fillColor=#d5e8d4;strokeWidth=8;strokeColor=#82b366;rounded=0;perimeterSpacing=10;" parent="1" vertex="1">
           <mxGeometry x="20" y="1110" width="252" height="252" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-157" value="" style="whiteSpace=wrap;html=1;aspect=fixed;opacity=20;fillColor=#f8cecc;strokeWidth=8;strokeColor=#b85450;rounded=0;perimeterSpacing=10;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-157" value="" style="whiteSpace=wrap;html=1;aspect=fixed;opacity=20;fillColor=#f8cecc;strokeWidth=8;strokeColor=#b85450;rounded=0;perimeterSpacing=10;" parent="1" vertex="1">
           <mxGeometry x="20" y="1522" width="170" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-158" value="subscribe" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-158" value="subscribe" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="55" y="1630" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-159" value="operator 2&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-159" value="operator 2&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="55" y="1310" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-164" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="Snxs2UidoDejocpdf8-x-160" target="Snxs2UidoDejocpdf8-x-159">
+        <mxCell id="Snxs2UidoDejocpdf8-x-164" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;" parent="1" source="Snxs2UidoDejocpdf8-x-160" target="Snxs2UidoDejocpdf8-x-159" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-160" value="operator 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-160" value="operator 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="55" y="1220" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="Snxs2UidoDejocpdf8-x-161" target="Snxs2UidoDejocpdf8-x-160">
+        <mxCell id="Snxs2UidoDejocpdf8-x-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;" parent="1" source="Snxs2UidoDejocpdf8-x-161" target="Snxs2UidoDejocpdf8-x-160" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-161" value="source" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-161" value="source" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="55" y="1122" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-167" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="Snxs2UidoDejocpdf8-x-162" target="Snxs2UidoDejocpdf8-x-158">
+        <mxCell id="Snxs2UidoDejocpdf8-x-167" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;" parent="1" source="Snxs2UidoDejocpdf8-x-162" target="Snxs2UidoDejocpdf8-x-158" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Snxs2UidoDejocpdf8-x-162" value="operator 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Snxs2UidoDejocpdf8-x-162" value="operator 3" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="55" y="1540" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MoNaNplw1TsNARD-EK_f-1" value="request(Prefetch)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="540" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MoNaNplw1TsNARD-EK_f-18" value="tryEmit" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="780" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MoNaNplw1TsNARD-EK_f-20" value="&lt;br&gt;if wip &lt;br&gt;getOrCreateQueue&lt;br&gt;increment wip and&amp;nbsp;offer(v)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="850" width="236" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MoNaNplw1TsNARD-EK_f-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.45;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF0000;" edge="1" parent="1" source="MoNaNplw1TsNARD-EK_f-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="311" y="920" as="sourcePoint" />
+            <mxPoint x="230" y="919.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MoNaNplw1TsNARD-EK_f-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MoNaNplw1TsNARD-EK_f-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MoNaNplw1TsNARD-EK_f-37" value="subscribe to Inner&#xa;Publisher" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MoNaNplw1TsNARD-EK_f-40" value="" style="endArrow=classic;html=1;entryX=0.49;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="MoNaNplw1TsNARD-EK_f-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="474" y="320" as="sourcePoint" />
+            <mxPoint x="490" y="328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MoNaNplw1TsNARD-EK_f-43" value="new FlatMapInner" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="300" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MoNaNplw1TsNARD-EK_f-45" value="" style="endArrow=classic;html=1;entryX=0.47;entryY=-0.125;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;" edge="1" parent="1" target="MoNaNplw1TsNARD-EK_f-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="472" y="580" as="sourcePoint" />
+            <mxPoint x="472" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MoNaNplw1TsNARD-EK_f-46" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 8px&quot;&gt;missed = &lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;WIP&lt;/span&gt;.addAndGet(&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;this, &lt;/span&gt;-missed)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;if &lt;/span&gt;(missed == &lt;span style=&quot;color: rgb(104 , 151 , 187)&quot;&gt;0&lt;/span&gt;) {&lt;br&gt; &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;break;&lt;br&gt;&lt;/span&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="810" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MoNaNplw1TsNARD-EK_f-48" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9px&quot;&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;else &lt;/span&gt;{&lt;br&gt; Queue&amp;lt;&lt;span style=&quot;color: rgb(80 , 120 , 116)&quot;&gt;R&lt;/span&gt;&amp;gt; q = getOrCreateInnerQueue(inner)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; if &lt;/span&gt;(!q.offer(v) &amp;amp;&amp;amp; failOverflow(v&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;inner)) {&lt;br&gt;  inner.&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;done &lt;/span&gt;= &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;true;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;}&lt;br&gt; drain(v)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="598" y="771" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="MoNaNplw1TsNARD-EK_f-50" value="" style="endArrow=classic;html=1;strokeColor=#FF3333;entryX=1.028;entryY=0.882;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Snxs2UidoDejocpdf8-x-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="800" as="sourcePoint" />
+            <mxPoint x="470" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MoNaNplw1TsNARD-EK_f-52" value="if r==0&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="309" y="810" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MoNaNplw1TsNARD-EK_f-53" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 7px&quot;&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;if &lt;/span&gt;(q == &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;null&lt;/span&gt;) {&lt;br&gt; q = getOrCreateInnerQueue(inner)&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;}&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;if &lt;/span&gt;(!q.offer(v) &amp;amp;&amp;amp; failOverflow(v&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;inner)){&lt;br&gt; inner.&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;done &lt;/span&gt;= &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;true;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; &lt;/span&gt;drainLoop()&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt; return;&lt;br&gt;&lt;/span&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="270" y="810" width="340" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="MoNaNplw1TsNARD-EK_f-54" value="" style="endArrow=classic;html=1;strokeColor=#FF3333;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="805" as="sourcePoint" />
+            <mxPoint x="233" y="795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MoNaNplw1TsNARD-EK_f-55" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 8px&quot;&gt;drainLoop()&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="272" y="881" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
