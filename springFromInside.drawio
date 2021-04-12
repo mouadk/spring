@@ -1,1 +1,205 @@
-<mxfile host="app.diagrams.net" modified="2021-04-12T20:28:53.015Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" version="14.4.9" etag="LUO3bphTmkwNFGO7zPTC" type="github"><diagram id="3FUCh8g4Bcxb639Vcez8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-12T21:26:02.453Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="sSuTikCBK2-GNk3Mep_4" version="14.4.9" type="github">
+  <diagram id="3FUCh8g4Bcxb639Vcez8" name="Page-1">
+    <mxGraphModel dx="1175" dy="992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-2" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(255 , 198 , 109)&quot;&gt;processConfigBeanDefinitions&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-3" target="vOUs0FIM1DBBqrbMqP6G-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-3" value="initialise a list of config candidates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="140" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-5" target="vOUs0FIM1DBBqrbMqP6G-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="365" y="360" />
+              <mxPoint x="365" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-5" value="get all candidate names form &amp;nbsp;actual registry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="250" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-7" target="vOUs0FIM1DBBqrbMqP6G-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-7" value="for each candidate obtain the bean definition and check if configuration annotations is present, if yes push to config candidate list in order to be processed&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="390" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-10" target="vOUs0FIM1DBBqrbMqP6G-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-10" value="Reorder the config candidates list based on @order annotations&amp;nbsp;&lt;br&gt;the smaller the higher :)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="550" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-12" target="vOUs0FIM1DBBqrbMqP6G-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-12" value="determine the bean generator&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="710" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-14" target="vOUs0FIM1DBBqrbMqP6G-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-14" value="Set environment if not already" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="870" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-16" target="vOUs0FIM1DBBqrbMqP6G-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-16" value="&lt;pre style=&quot;font-size: 13px&quot;&gt;&lt;pre&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 13px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Create a&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;background-color: rgb(255 , 255 , 255) ; white-space: normal ; font-size: 13px&quot;&gt;ConfigurationClassParse&lt;/font&gt;&lt;font style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 13px&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;r and a Set for already parser classes&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre&gt;&lt;font face=&quot;jetbrains mono, monospace&quot; style=&quot;background-color: rgb(255 , 255 , 255) ; white-space: normal ; font-size: 13px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1040" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-18" target="vOUs0FIM1DBBqrbMqP6G-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-18" value="&lt;pre style=&quot;font-size: 14px&quot;&gt;&lt;pre&gt;&lt;font style=&quot;background-color: rgb(255 , 0 , 0)&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;parse the &lt;/font&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;candidates using&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; white-space: normal&quot;&gt;the pre-initialised ConfigurationClassParser and validate&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1210" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-20" target="vOUs0FIM1DBBqrbMqP6G-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-20" value="&lt;pre&gt;&lt;pre style=&quot;font-size: 14px&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;remove already processed configuration&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;classed form the list of the &lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;candidates &lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1370" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-22" target="vOUs0FIM1DBBqrbMqP6G-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-22" value="&lt;pre&gt;&lt;pre&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;create a Configuration bean definitions&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;font style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; white-space: normal&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;reader and load beans &lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; white-space: normal ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;definitions from&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;span style=&quot;font-size: 14px ; font-family: &amp;#34;times new roman&amp;#34; ; white-space: normal ; background-color: rgb(255 , 255 , 255)&quot;&gt;parsed&amp;nbsp;configuration classes&amp;nbsp;&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1530" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-24" value="&lt;pre&gt;&lt;pre&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;register import registry bean and clear&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;cache &lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1690" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-26" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(255 , 198 , 109)&quot;&gt;parse&lt;/span&gt;(Set&amp;lt;BeanDefinitionHolder&amp;gt; configCandidates)&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="80" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-29" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;processConfigurationClass(&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;new &lt;/span&gt;ConfigurationClass(clazz&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;beanName)&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="80" width="490" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-30" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-18" target="vOUs0FIM1DBBqrbMqP6G-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="1220" as="sourcePoint" />
+            <mxPoint x="580" y="1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="1080" />
+              <mxPoint x="580" y="118" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-33" target="vOUs0FIM1DBBqrbMqP6G-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-33" value="get the BeanDefinition&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="130" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-34" value="depending on the type of the AnnotatedBeanDefinition&lt;br&gt;an appropriate parse method is invoked" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="240" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-36" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="160" as="sourcePoint" />
+            <mxPoint x="1090" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1060" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-38" target="vOUs0FIM1DBBqrbMqP6G-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-38" value="first check of we should skip the bean processing by checking if @Conditional is met (default is true of course)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="140" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-39" target="vOUs0FIM1DBBqrbMqP6G-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-39" value="first check of we should skip the bean processing by checking if @Conditional is met (default is true of course)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="280" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-41" target="vOUs0FIM1DBBqrbMqP6G-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-41" value="process each class and it&#39;s super class" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="420" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-43" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;doProcessConfigurationClass&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="80" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-44" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1600" y="160" as="sourcePoint" />
+            <mxPoint x="1650" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1620" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-45" value="add it to configuration classes &amp;nbsp;list" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="560" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-47" target="vOUs0FIM1DBBqrbMqP6G-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-47" value="if @component or derived annotations if present processMemberClass will be invoked to process internal configuration class first&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="150" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-48" target="vOUs0FIM1DBBqrbMqP6G-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-48" value="if property Sources is present call it&#39;s dedicated method for processing" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="310" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-50" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;processMemberClasses&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="80" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-51" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;processPropertySource&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="80" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-52" target="vOUs0FIM1DBBqrbMqP6G-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-52" value="if property Sources is present call it&#39;s dedicated method for processing" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="470" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-54" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;componentScanParser&lt;/span&gt;.parse&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2480" y="80" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-55" target="vOUs0FIM1DBBqrbMqP6G-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-55" value="process @import annotations" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="630" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-57" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;processImports&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2750" y="80" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-58" value="this method would be invoked recursively&amp;nbsp;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="40" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-59" target="vOUs0FIM1DBBqrbMqP6G-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-59" value="process @bean annotations" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="790" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-61" value="&lt;pre style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;addBeanMethod&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2900" y="80" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vOUs0FIM1DBBqrbMqP6G-62" target="vOUs0FIM1DBBqrbMqP6G-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-62" value="process interface annotations&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="950" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vOUs0FIM1DBBqrbMqP6G-64" value="handle parent class&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1110" width="190" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
